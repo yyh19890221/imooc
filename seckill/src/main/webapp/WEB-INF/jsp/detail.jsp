@@ -13,6 +13,12 @@
             <h1>${seckill.name}</h1>
         </div>
         <div class="panel-body">
+            <h2 class="text-danger">
+                <%--显示time图标--%>
+                <span class="glyphicon glyphicon-time"></span>
+                <%--展示倒计时--%>
+                <span class="glyphicon" id="seckill-box"></span>
+            </h2>
 
         </div>
     </div>

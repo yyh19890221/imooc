@@ -10,7 +10,7 @@
     <div class="container">
         <div class="panel panel-default">
             <div class="panel-heading text-center">
-                <h2>描述列表</h2>
+                <h2>秒杀列表</h2>
             </div>
             <div class="panel-body">
                 <table class="table table-hover">
@@ -28,7 +28,7 @@
                     <c:forEach items="${list}" var="sk">
                         <tr>
                             <td>${sk.name}</td>
-                            <td><${sk.number}/td>
+                            <td>${sk.number}</td>
                             <td>
                                 <fmt:formatDate value="${sk.startTime}" pattern="yyyy-MM-dd HH:mm:ss" />
                             </td>
